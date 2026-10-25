@@ -20,13 +20,13 @@ Part 2. Form Input and Event Responses
 
 Task 3. HTML Form Setup:
 
-<img width="699" height="350" alt="task3a" src="https://github.com/user-attachments/assets/79755971-4151-458f-8396-2c3947f2b9fc" />
+<img width="703" height="339" alt="task3aa" src="https://github.com/user-attachments/assets/4c9f0ee5-3d5a-451a-8611-23a6da77a230" />
 
 <img width="453" height="31" alt="task3b" src="https://github.com/user-attachments/assets/8455c2ce-403d-419b-8742-46ac732298cb" />
 
 Task 4. Event Listener: 
 
-<img width="494" height="221" alt="task4a" src="https://github.com/user-attachments/assets/e4553ed0-0629-43db-b97c-45116cdd5663" />
+<img width="526" height="312" alt="task4aa" src="https://github.com/user-attachments/assets/81228326-2fc1-4fa1-a528-cab0c5df9f0f" />
 
 <img width="540" height="94" alt="task4b" src="https://github.com/user-attachments/assets/e51ce3e4-165a-4b92-bcd4-fef381d21727" />
 
@@ -42,6 +42,6 @@ Task 5. Creating and Removing Elements:
 
 Summary:
 
-I created userProfile in JS and created calculations of the currentAge and monthsOld in JS. To make my HTML update dynamically function updateProfileUI was created. It uses userProfile to change data in HTML classes such as displayName and hobbiesList. Then I added eventListener for my button with submit type, which uses input data. Afterthat, addItemBtn and removeItemBtn eventlisteners were created. The add button uses push to add input into the list, while the remove button uses pop to remove last item from the list.
+I created userProfile in JS and created calculations of the currentAge and monthsOld in JS. To make my HTML update dynamically function updateProfileUI was created. It uses userProfile to change data in HTML classes such as displayName and hobbiesList. Then I added eventListener for my button with button type, which uses input data. Afterthat, addItemBtn and removeItemBtn eventlisteners were created. The add button uses push to add input into the list, while the remove button uses pop to remove last item from the list.
 
 Link:  https://danial2032.github.io/assignment5_web/
