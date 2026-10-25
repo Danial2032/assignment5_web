@@ -54,7 +54,7 @@ updateProfileUI();
 
 // --- TASK 4: Event Listener for Form Submission ---
 updateProfileBtn.addEventListener('click',function(){
-    if(usernameInput.value.trim() === "" || birthYearInput === ""){
+    if(usernameInput.value.trim() === "" || birthYearInput.value === ""){
         alert("Please fill in all fields");
         return;
     }
