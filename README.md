@@ -42,5 +42,6 @@ Task 5. Creating and Removing Elements:
 
 Summary:
 
+I created userProfile in JS and created calculations of the currentAge and monthsOld in JS. To make my HTML update dynamically function updateProfileUI was created. It uses userProfile to change data in HTML classes such as displayName and hobbiesList. Then I added eventListener for my button with submit type, which uses input data. Afterthat, addItemBtn and removeItemBtn eventlisteners were created. The add button uses push to add input into the list, while the remove button uses pop to remove last item from the list.
 
 Link:  https://danial2032.github.io/assignment5_web/
