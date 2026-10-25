@@ -54,7 +54,9 @@ updateProfileUI();
 
 // --- TASK 4: Event Listener for Form Submission ---
 updateProfileBtn.addEventListener('click',function(){
-    if(usernameInput.value.trim() === "" || birthYearInput.value === ""){
+    const parsedYear = parseInt(birthYearInput.value);
+        
+    if(usernameInput.value.trim() === "" || isNaN(parsedYear)){
         alert("Please fill in all fields");
         return;
     }
