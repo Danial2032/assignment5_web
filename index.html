@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile & DOM Manipulation Lab</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Part 2: Form Input Setup -->
+    <section>
+        <h2>User Profile Form</h2>
+        <form id="profileForm">
+            <div>
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" placeholder="Enter name" required>
+            </div>
+            <div>
+                <label for="birthYear">Birth Year:</label><br>
+                <input type="number" id="birthYear" placeholder="e.g., 1995" required>
+            </div>
+            <button type="submit">Create / Update Profile</button>
+        </form>
+    </section>
+
+    <!-- Part 1 & 2 Output -->
+    <section>
+        <h2>Profile Metrics & Info</h2>
+        <div id="profileDisplay">
+            <p><strong>Name:</strong> <span id="displayName">-</span></p>
+            <p><strong>Current Age:</strong> <span id="displayAge">-</span></p>
+            <p><strong>Age in Months:</strong> <span id="displayMonths">-</span></p>
+            <p><strong>Is Developer:</strong> <span id="displayDev">-</span></p>
+        </div>
+    </section>
+
+    <!-- Part 3: DOM List Manipulation -->
+    <section>
+        <h2>Hobbies / Tasks List</h2>
+        <input type="text" id="hobbyInput" placeholder="New hobby">
+        <button id="addItemBtn">Add Item</button>
+        <button id="removeItemBtn">Remove Last Item</button>
+        
+        <ul id="hobbiesList">
+            <!-- Dynamically populated hobbies -->
+        </ul>
+        <p><small>Total Hobbies: <span id="hobbyCount">0</span></small></p>
+    </section>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
