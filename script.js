@@ -19,6 +19,7 @@ const displayDev = document.getElementById('displayDev');
 const hobbyInput = document.getElementById('hobbyInput');
 const addItemBtn = document.getElementById('addItemBtn');
 const removeItemBtn = document.getElementById('removeItemBtn');
+const updateProfileBtn = document.getElementById('updateProfileBtn');
 const hobbiesList = document.getElementById('hobbiesList');
 const hobbyCount = document.getElementById('hobbyCount');
 
@@ -52,10 +53,12 @@ birthYearInput.value = userProfile.birthYear;
 updateProfileUI();
 
 // --- TASK 4: Event Listener for Form Submission ---
-profileForm.addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent page reload
+updateProfileBtn.addEventListener('click',function(){
+    if(usernameInput.value.trim() === "" || birthYearInput === ""){
+        alert("Please fill in all fields");
+        return;
+    }
 
-    // Update userProfile object from form input
     userProfile.name = usernameInput.value.trim();
     userProfile.birthYear = parseInt(birthYearInput.value);
 
